@@ -1,6 +1,6 @@
 const arithMean = (arr) => {
-  let result = arr.reduce((accum, index) => {
-    return accum + index;
+  let result = arr.reduce((accum, currentNum) => {
+    return accum + currentNum;
   }, 0);
 
   return (result / arr.length).toFixed(1);
