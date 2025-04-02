@@ -1,7 +1,7 @@
 const checkEven = (arr) => {
   let arrLength = arr.length;
-  for (let i = 0; i < arrLength; i++) {
-    if (arr[i] % 2 !== 0) {
+  for (let index = 0; index < arrLength; index++) {
+    if (arr[index] % 2 !== 0) {
       return false;
     }
   }
